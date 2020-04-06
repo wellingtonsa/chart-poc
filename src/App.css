@@ -11,6 +11,7 @@
   width: 700px;
   background: linear-gradient(329.31deg, #FF8382 15.2%, #F52F5F 97.54%);
   border-radius: 10px;
+  margin: 10px;
 
 }
 
@@ -20,3 +21,35 @@
   font-weight: bold;
   font-family: 'Roboto';
 }
+
+.graphic {
+  animation: showed ease-in-out 1s;
+}
+
+@keyframes showed {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+
+.container .scatter-plot-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  background: rgba(23, 24, 25, 0.9);
+  box-shadow: 0px 1px 8px rgba(20, 46, 110, 0.1);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container .scatter-plot-chart h1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
